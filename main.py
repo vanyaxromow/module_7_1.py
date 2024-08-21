@@ -28,8 +28,7 @@ class Shop:
             else:
                 file.write(str(i) + '\n')
                 current_products += i.name
-
-        file.close()
+                file.close()
 
 
 s1 = Shop()
